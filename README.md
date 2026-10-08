@@ -37,7 +37,7 @@ R 4.6.1 with Seurat 5.5.1 (SeuratObject 5.4.0), harmony 2.0.5, scDblFinder 1.26.
 install.packages(c("Seurat", "harmony", "hdf5r", "patchwork", "readxl", "openxlsx", "pheatmap", "ggpubr", "ggrepel", "cowplot", "ragg", "RColorBrewer", "tidyverse", "BiocManager"))
 BiocManager::install(c("limma", "scDblFinder", "SingleCellExperiment", "DropletUtils", "GEOquery"))
 ```
-E-MTAB-11188 counting: kb-python 0.30.2 (Python 3.10; `env/kb-python_requirements.txt`), kallisto 0.52.0, bustools 0.45.1 and the human "standard" index of pachterlab/kallisto-transcriptome-indices v1 (`kb ref -d human -i index.idx -g t2g.txt`). On macOS the kallisto bundled with kb-python 0.30.2 needs an HDF5 library that Homebrew no longer ships; pass the official kallisto 0.52.0 release binary with `KALLISTO=/path/to/kallisto`.
+E-MTAB-11188 counting: kb-python 0.30.2 (Python 3.10; `kb-python_requirements.txt`), kallisto 0.52.0, bustools 0.45.1 and the human "standard" index of pachterlab/kallisto-transcriptome-indices v1 (`kb ref -d human -i index.idx -g t2g.txt`). On macOS the kallisto bundled with kb-python 0.30.2 needs an HDF5 library that Homebrew no longer ships; pass the official kallisto 0.52.0 release binary with `KALLISTO=/path/to/kallisto`.
 
 ### Code description
 - `0.config.R`: input and output paths; every path can be overridden with an environment variable
