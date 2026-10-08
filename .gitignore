@@ -1,0 +1,11 @@
+# Input data and outputs are not part of the repository
+data/
+output/
+
+# R and macOS files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+Rplots.pdf
