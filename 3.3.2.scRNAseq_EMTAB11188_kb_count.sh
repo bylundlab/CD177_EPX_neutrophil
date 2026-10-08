@@ -3,7 +3,7 @@
 # kb "standard" workflow: only reads compatible with mature (spliced) transcripts are counted, as in the Cell Ranger v2
 # matrices of GSE180298. Output: one unfiltered, Cell Ranger-style count matrix per run (E-MTAB-11188/kb_counts/RUN/
 # cellranger), read by 3.3.3. The FASTQ MD5 checksums are verified against the ENA file report written by 3.3.1.
-# Software (README): kb-python 0.30.2 (env/kb-python_requirements.txt), kallisto 0.52.0, bustools 0.45.1 and the human
+# Software (README): kb-python 0.30.2 (kb-python_requirements.txt), kallisto 0.52.0, bustools 0.45.1 and the human
 # "standard" index of pachterlab/kallisto-transcriptome-indices v1 (index.idx, t2g.txt).
 # Usage : bash 3.3.2.scRNAseq_EMTAB11188_kb_count.sh RUN [RUN ...]   (KB, KALLISTO, BUSTOOLS and INDEX_DIR set the tool and
 #         index locations; EMTAB11188_DIR or DATA_DIR change the data folder, as in 0.config.R)
