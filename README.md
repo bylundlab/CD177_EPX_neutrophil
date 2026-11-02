@@ -8,7 +8,7 @@ Code for the proteomic and single-cell RNA sequencing analyses of the study:
 
 The flow cytometry, microscopy, peroxidase activity and immunoprecipitation data (Figures 1, 3A-F, 4 and 6) are not part of this repository.
 
-#### Publication: Frontiers in Immunology (under revision; reference to be added)
+#### Publication: Popović J, Dahlstrand Rudin A, Bäckerholm A, Venkatakrishnan V, Christenson K and Bylund J (2026) Enzymatically active eosinophil peroxidase associates with CD177 and alters oxidative activity in a subset of neutrophils. Front. Immunol. 17:1985429. doi: 10.3389/fimmu.2026.1985429
 
 #### Data
 - Neutrophil proteome: Supplementary Data 1 of the article, saved as `data/Supplementary_Data_1.xlsx`. Its sheets `Quantified proteins` (3,436 protein groups quantified in all 16 samples) and `Missing values` (323 protein groups) contain the annotation and normalized abundances of all 3,759 protein groups from Proteome Discoverer 2.4; `Sample annotation` gives the TMTpro channel, donor and subset of samples 1-16. The Proteome Discoverer protein table itself (`Proteomic_base.xlsx`, sheet `Neutrophil proteome`) can be used instead (`PROTEOMICS_FILE`) and gives the same results. Raw data, search and quantification results: ProteomeXchange/PRIDE PXD085205.
